@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Default Prediction</title>
+</head>
+<body>
+    <h2>Default Prediction</h2>
+    <form action="/predict" method="post">
+        <label for="employed">Employed (1 for yes, 0 for no):</label>
+        <input type="number" id="employed" name="employed" required><br>
+        <label for="bank_balance">Bank Balance:</label>
+        <input type="number" id="bank_balance" name="bank_balance" required><br>
+        <label for="annual_salary">Annual Salary:</label>
+        <input type="number" id="annual_salary" name="annual_salary" required><br>
+        <input type="submit" value="Predict">
+    </form>
+</body>
+</html>
